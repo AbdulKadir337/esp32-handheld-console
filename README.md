@@ -1,27 +1,30 @@
-# ESP32 Handheld Console
-
-
-Breadboard prototype
-
-![Breadboard Prototype](docs/breadboard.jpg)
-
-Dette projekt er udviklet som en del af faget **Elektronisk Produktudvikling** på **UCL University College (Seebladsgade, Odense)** af en IT-teknologistuderende.
-
-Formålet med projektet er at prototype og udvikle en kompakt, ESP32-baseret håndholdt spillekonsol. Konsollen kører i øjeblikket spillet **Snake**. Projektet er i øjeblikket i prototypefasen på breadboard, med henblik på fremtidigt design og udlægning af et tilpasset **Printed Circuit Board (PCB)**.
-
-## 🚀 Projektoversigt
-Konsollen er bygget op omkring en **ESP32** mikrokontroller, som håndterer spillogikken for Snake, modtager input fra kontrolelementer og opdaterer spillets grafik på et **1,3" OLED-display** via I2C-protokollen.
-
-### 🛠️ Hardwarekomponenter
-*   **Mikrokontroller:** ESP32 Development Board (esp32dev) [1]
-*   **Display:** 1.3" OLED-display (SH1106 / SSD1306 driver, I2C-interface) [1]
-*   **Input:** HW-504 Joystick-modul (Konfigureret til retningsbestemt input)
+## 🕹️ ESP32 Handheld Console
 
 ---
 
-## 🔌 Forbindelsesdiagram (Pin Mapping)
+## Breadboard prototype
 
-Baseret på projektets nuværende firmwarekonfiguration er komponenterne forbundet til ESP32 på følgende pinde:
+![Breadboard Prototype](docs/images/breadboard.jpg)
+
+This project is developed as part of the **Electronic Product Development** (*Elektronisk Produktudvikling*) course at **UCL University College (Seebladsgade, Odense)** by an IT Technology student.
+
+The goal of this project is to prototype and develop a compact, ESP32-based handheld gaming console. The system currently runs a fully functional version of the classic game **Snake**. The project is in the breadboard prototyping phase, with the ultimate objective of engineering and routing a custom **Printed Circuit Board (PCB)**.
+
+## 🚀 Project Overview
+The console utilizes an ESP32 microcontroller to execute the Snake game logic, process control inputs, and update the game graphics on a **1.3" OLED display** using the I2C communication protocol.
+
+### 🛠️ Hardware Components
+*   **Microcontroller:** ESP32 Development Board (esp32dev)
+*   **Display:** 1.3" OLED Display (SH1106 / SSD1306 driver, I2C interface)
+*   **Input:** HW-504 Joystick Module (Configured for analog direction control)
+
+---
+
+## 🔌 Hardware Wiring Diagram (Pin Mapping)
+
+![Wiring Diagram](docs/hardware/schematics/wiring_diagram.png)
+
+Based on the current firmware configuration, the components are interfaced with the ESP32 using the following pin mapping:
 
 ### 1. I2C OLED Display
 
