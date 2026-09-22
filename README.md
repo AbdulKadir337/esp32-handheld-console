@@ -1,6 +1,6 @@
 # ESP32 Handheld Console
 
-![Breadboard Prototype] (docs/breadboard.jpg)
+![Breadboard Prototype](docs/breadboard.jpg)
 
 Dette projekt er udviklet som en del af faget **Elektronisk Produktudvikling** på **UCL University College (Seebladsgade, Odense)** af en IT-teknologistuderende.
 
