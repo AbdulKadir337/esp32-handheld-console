@@ -33,14 +33,16 @@ Based on the current firmware configuration, the components are interfaced with 
 | **SCL** | GPIO 22 | I2C Hardware Clock [1] |
 | **SDA** | GPIO 21 | I2C Hardware Data [1] |
 
-### 2. HW-504 Joystick / Control Buttons
-*Note: Pins are defined digitally in the firmware for directional control.*
+### 2. HW-504 Analog Joystick
+*Note: The joystick pins are connected to the ESP32's ADC channels to sample analog voltage levels.*
 
-| Function / Direction | ESP32 GPIO | Description |
-| :--- | :--- | :--- |
-| **UP** | GPIO 25 | Input for upward movement [1] |
-| **DOWN** | GPIO 26 | Input for downward movement [1] |
-| **LEFT** | GPIO 27 | Input for leftward movement [1] |
-| **RIGHT** | GPIO 32 | Input for rightward movement [1] |
+| Joystick Pin | ESP32 GPIO | Direction / Function | Description |
+| :--- | :--- | :--- | :--- |
+| **GND** | GND | - | Common Ground |
+| **+5V** | 5V / 3V3 | - | Power Supply for the joystick potentiometers |
+| **VRx** | GPIO 25 | X-Axis | Analog input (Horizontal movement) |
+| **VRy** | GPIO 26 | Y-Axis | Analog input (Vertical movement) |
+| **SW** | GPIO 27 | Push Button | Digital input (Configured with `INPUT_PULLUP` in code) |
 
 ---
+
