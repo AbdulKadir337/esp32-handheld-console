@@ -1,7 +1,5 @@
 ## 🕹️ ESP32 Handheld Console
 
----
-
 ## Breadboard prototype
 
 ![Breadboard Prototype](docs/images/breadboard.jpg)
