@@ -26,21 +26,21 @@ Based on the current firmware configuration, the components are interfaced with 
 
 ### 1. I2C OLED Display
 
-| OLED Pin | ESP32 GPIO | Beskrivelse |
+| OLED Pin | ESP32 GPIO | Description |
 | :--- | :--- | :--- |
-| **GND** | GND | Stel (Ground) |
-| **VCC** | 3V3 / 5V | Strømforsyning |
+| **GND** | GND | Ground |
+| **VCC** | 3V3 / 5V | Power Supply |
 | **SCL** | GPIO 22 | I2C Hardware Clock [1] |
 | **SDA** | GPIO 21 | I2C Hardware Data [1] |
 
-### 2. HW-504 Joystick / Kontrolknapper
-*Bemærk: Pindene er defineret digitalt i firmwaren til retningsstyring.*
+### 2. HW-504 Joystick / Control Buttons
+*Note: Pins are defined digitally in the firmware for directional control.*
 
-| Funktion / Retning | ESP32 GPIO | Beskrivelse |
+| Function / Direction | ESP32 GPIO | Description |
 | :--- | :--- | :--- |
-| **UP** | GPIO 25 | Input for bevægelse opad [1] |
-| **DOWN** | GPIO 26 | Input for bevægelse nedad [1] |
-| **LEFT** | GPIO 27 | Input for bevægelse mod venstre [1] |
-| **RIGHT** | GPIO 32 | Input for bevægelse mod højre [1] |
+| **UP** | GPIO 25 | Input for upward movement [1] |
+| **DOWN** | GPIO 26 | Input for downward movement [1] |
+| **LEFT** | GPIO 27 | Input for leftward movement [1] |
+| **RIGHT** | GPIO 32 | Input for rightward movement [1] |
 
 ---
