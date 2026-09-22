@@ -1,5 +1,7 @@
 # ESP32 Handheld Console
 
+![Breadboard Prototype](docs/breadboard.jpg)
+
 Dette projekt er udviklet som en del af faget **Elektronisk Produktudvikling** på **UCL University College (Seebladsgade, Odense)** af en IT-teknologistuderende.
 
 Formålet med projektet er at prototype og udvikle en kompakt, ESP32-baseret håndholdt spillekonsol. Konsollen kører i øjeblikket spillet **Snake**. Projektet er i øjeblikket i prototypefasen på breadboard, med henblik på fremtidigt design og udlægning af et tilpasset **Printed Circuit Board (PCB)**.
