@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Handheld Gaming Console Footprint Library") (type "KiCad") (uri "${KIPRJMOD}/Handheld Gaming Console Footprint Library.pretty") (options "") (descr ""))
+)
